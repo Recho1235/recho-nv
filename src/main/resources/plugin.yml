@@ -1,0 +1,10 @@
+name: recho-nv
+version: '${project.version}'
+main: veravity.net.rechonv.Recho_nv
+api-version: 1.20
+description: A plugin that provides permanent night vision.
+commands:
+  nv:
+    description: Enable permanent night vision
+    usage: /nv
+    permission: recho.nightvision
